@@ -1,0 +1,4 @@
+                    worst   average   best
+SELECTION  SORT  =  n^2      n^2      n^2 
+INSERTION  SORT  =  n^2      n^2      n
+BUBBLE     SORT  =  n^2      n^2      n^2
