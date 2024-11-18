@@ -1,0 +1,26 @@
+body, html {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+}
+
+.container {
+    
+    height: 200vh; /* Make the page taller for scrolling */
+}
+
+.box {
+    margin-left: 5%;
+    position: absolute;
+    width: 100px;
+    height: 100px;
+    background-color: #3498db;
+    top: 80%;
+    transform: translateY(-50%); /* Center vertically */
+}
+.left-to-right {
+    left: -50px; /* Start position for the first box */
+}
+.right-to-left {
+    right: -50px; /* Start position for the second box */
+}
